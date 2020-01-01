@@ -22,6 +22,13 @@ def directors_totals(nds)
       puts "\tCoordinate [#{coord}] points to an #{vm[row_index][column_index].class} of length #{inner.len}"
       inner_index=0
       while inner_index = 0
-      while inner_indx
-  result
+      while inner_index < inner_len do
+        puts "\t\t (#{coord}, #{inner_len}} is: #{vm[row_index][column_index][inner_index]}"
+        inner_index += 1
+      end
+      column_index += 1
+    end
+    row_index += 1
+  end
+    result
 end
