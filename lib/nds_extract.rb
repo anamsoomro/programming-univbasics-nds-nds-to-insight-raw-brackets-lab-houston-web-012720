@@ -12,7 +12,6 @@ def directors_totals(nds)
   # ...
   # Be sure to return the result at the end!
   result = {}
- 
   row = 0
   # for each director (each row) do 
   while row < directors_database.length do
@@ -25,7 +24,7 @@ def directors_totals(nds)
       column += 1
     end
     #add a key of the directors name to the resuts hash and assign it the total 
-    result[directors_database[row][:name] = total]
+    result[directors_database[row][:name]]=total
     row += 1
   end
   result
