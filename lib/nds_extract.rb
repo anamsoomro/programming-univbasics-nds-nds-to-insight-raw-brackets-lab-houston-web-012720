@@ -17,11 +17,10 @@ def directors_totals(nds)
   while row < directors_database[row][:movies].length do
     column = 0 
     total = 0
-    while column < directors_database[row][:movies][column] do 
+    while column < directors_database[row][:movies].length do 
       total += directors_database[row][:movies][column][:worldwide_gross]
       column += 1
-    result[directors_database[row][:name] => ]
     end
-    
+    result[directors_database[row][:name] = total]
   result
 end
