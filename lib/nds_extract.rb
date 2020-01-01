@@ -22,5 +22,7 @@ def directors_totals(nds)
       column += 1
     end
     result[directors_database[row][:name] = total]
+    row += 1
+  end
   result
 end
