@@ -18,11 +18,13 @@ def directors_totals(nds)
   while row < directors_database.length do
     column = 0 
     total = 0
-    #for each column under the movies key 
+    #for each column under the movies key do 
     while column < directors_database[row][:movies].length do 
+      #add the worldwide_gross value to the total 
       total += directors_database[row][:movies][column][:worldwide_gross]
       column += 1
     end
+    #add a key of the directors name to the resuts hash and assign it the total 
     result[directors_database[row][:name] = total]
     row += 1
   end
