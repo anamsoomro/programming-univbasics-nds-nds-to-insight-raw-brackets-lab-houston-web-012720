@@ -12,23 +12,5 @@ def directors_totals(nds)
   # ...
   # ...
   # Be sure to return the result at the end!
-  row_index = 0
-  while row_index < directors_database.length do 
-    puts "Row #{row_index} hasa #{vm[row_index]} columns"
-    column_index = 0
-    while column_index < directors_database[row_index].length do
-      coord = "#{row_index}, #{column_index}"
-      inner_len = directors_database[row_index][column_index].length
-      puts "\tCoordinate [#{coord}] points to an #{vm[row_index][column_index].class} of length #{inner.len}"
-      inner_index=0
-      while inner_index = 0
-      while inner_index < inner_len do
-        puts "\t\t (#{coord}, #{inner_len}} is: #{vm[row_index][column_index][inner_index]}"
-        inner_index += 1
-      end
-      column_index += 1
-    end
-    row_index += 1
-  end
-    result
+  result
 end
