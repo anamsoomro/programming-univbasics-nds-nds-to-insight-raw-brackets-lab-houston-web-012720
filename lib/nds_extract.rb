@@ -20,5 +20,8 @@ def directors_totals(nds)
       coord = "#{row_index}, #{column_index}"
       inner_len = directors_database[row_index][column_index].length
       puts "\tCoordinate [#{coord}] points to an #{vm[row_index][column_index].class} of length #{inner.len}"
+      inner_index=0
+      while inner_index = 0
+      while inner_indx
   result
 end
